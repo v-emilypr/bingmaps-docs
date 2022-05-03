@@ -41,11 +41,11 @@ ext.credentialsKey = "ENTER YOUR KEY HERE"
 In your `project/build.gradle` file, inside `allprojects`, insert the following block in `repositories`:
 
 >```
-> repositories {
+>repositories {
 >         jcenter()
-          maven {
-              url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
-          }
+>          maven {
+>              url 'https://microsoftmaps.jfrog.io/artifactory/Maven/'
+>          }
 > }
 >```
 
